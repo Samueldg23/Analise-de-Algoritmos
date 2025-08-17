@@ -1,18 +1,51 @@
-## Getting Started
+📘 Trabalho de Algoritmos de Ordenação em Java
+📌 Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este trabalho tem como objetivo a implementação e análise de desempenho de diferentes algoritmos clássicos de ordenação em Java.
 
-## Folder Structure
+Foram implementados os seguintes algoritmos:
 
-The workspace contains two folders by default, where:
+Bubble Sort
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Insertion Sort
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Selection Sort
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Merge Sort
 
-## Dependency Management
+Quick Sort
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Heap Sort
+
+Os algoritmos recebem como entrada um conjunto de números inteiros a partir de um arquivo de entrada, ordenam os valores em ordem crescente e gravam o resultado em um arquivo de saída.
+
+⚙️ Funcionalidades
+
+Durante a execução, o programa solicita ao usuário:
+
+A quantidade de números a serem ordenados;
+
+O nome do arquivo de entrada (com os números a serem ordenados);
+
+O nome do arquivo de saída (para salvar os números já ordenados).
+
+Além disso, foi implementada a medição de tempo de execução de cada algoritmo para comparação de desempenho.
+
+📊 Testes Realizados
+
+Os testes foram feitos com conjuntos de dados de diferentes tamanhos, variando de 100.000 até 700.000 elementos.
+Foram utilizados arquivos de entrada em seis formatos distintos:
+
+Crescente com repetição
+
+Decrescente com repetição
+
+Aleatório com repetição
+
+Crescente sem repetição
+
+Decrescente sem repetição
+
+Aleatório sem repetição
+
+Cada cenário foi executado pelo menos três vezes, e a média dos tempos foi considerada para análise.
